@@ -1,0 +1,63 @@
+body {
+  background-color: #fbf7e8;
+}
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+h1 {
+  margin: 30px;
+  font-family: "Playwrite IT Moderna", cursive;
+  text-shadow: 3px 0 #8c0030;
+  font-size: 3.2rem;
+  color: #e1c291;
+  margin-bottom: 5px;
+}
+p {
+  font-size: 2rem;
+  color: #9c060c;
+  font-family: "LXGW WenKai TC", cursive;
+}
+.container .dice img {
+  width: 80%;
+}
+button {
+  display: block;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.1rem;
+  padding: 8px 10px;
+  margin: 40px auto;
+  border-radius: 7px;
+  border: 2px solid #be0000;
+  cursor: pointer;
+  font-weight: 500;
+  color: #be0000;
+  background-color: #f8dfb9;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #f7e6cc;
+}
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+@media (max-width: 752px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  .dice img {
+    max-width: 200px;
+  }
+}
+@media (max-width: 457px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .dice img {
+    width: 60%;
+  }
+}
